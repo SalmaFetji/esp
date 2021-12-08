@@ -25,8 +25,6 @@ def viz_num(num):
     fig.show()
     return fig
 
-def increment(result):
-    st.session_state.{result} += 1
 
 ### Load / Preprocess / Predict test.csv dataset ###
 
