@@ -63,15 +63,6 @@ if st.selectbox('Tools', ['Randomizing Tool', 'Drawing Tool']) == 'Randomizing T
             viz = viz_num(random_number)
             st.pyplot(viz)
 
-        if "counter" not in st.session_state:
-            st.session_state.correct = 0
-            st.session_state.incorrect = 0
-
-        st.write("Correct:", st.session_state.correct)
-        st.write("Incorrect:", st.session_state.incorrect)
-
-        st.button("Right prediction", on_click=increment)
-        st.button("Wrong prediction", on_click=increment)     
 
 ### Drawing Tool View ###               
 else:
