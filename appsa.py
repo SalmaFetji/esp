@@ -31,8 +31,7 @@ st.markdown('''
 Try to write a digit!
 ''')
 
-# data = np.random.rand(28,28)
-# img = cv2.resize(data, (256, 256), interpolation=cv2.INTER_NEAREST)
+
 
 SIZE = 192
 mode = st.checkbox("Draw (or Delete)?", True)
